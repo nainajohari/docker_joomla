@@ -2,11 +2,11 @@
 
 Pull Image from DockerHub :-
 
-docker pull webkul/joomla
+docker pull naina/joomla
 
 Run a container of this image using the following command :-
 
-"docker run -d -p 80:80 -p 3306:3306 webkul/joomla:latest"
+"docker run -d -p 80:80 -p 3306:3306 naina/joomla:latest"
 
 Note-: No other services should be running on port 80 and 3306 of your host system. If so, change ports in the above docker command.
 
