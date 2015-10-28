@@ -31,7 +31,7 @@ ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD adminer.php /var/www/html/joomla
 ADD create_mysql_admin_user.sh /create_mysql_admin_user.sh
 RUN chmod 755 /create_mysql_admin_user.sh 
-RUN ./create_mysql_admin_user.sh > /credentials.txt
+RUN ./create_mysql_admin_user.sh > /password.txt
 
 EXPOSE 80
 EXPOSE 3306
