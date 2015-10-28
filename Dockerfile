@@ -4,8 +4,8 @@ MAINTAINER Naina Johari <naina.johari379@webkul.com> <k.naina88@gmail.com>
 # Update existing packages & install LAMPSTACK
 RUN apt-get update  
 RUN apt-get install -y lamp-server^ && \
-    apt-get install -y wget curl unzip pwgen && \
-    apt-get install -y libapache2-mod-php5 php5-mcrypt php5-gd
+    apt-get install -y wget curl unzip pwgen 
+RUN apt-get install -y libapache2-mod-php5 php5-mcrypt php5-gd
 
 
 # Download Joomla
