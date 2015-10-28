@@ -14,7 +14,7 @@ In order to access the credentials of your database, you have to get the contain
 
 "docker exec -it $container_id bash"
 
-You are supposed to run "docker ps" know container's id before you run the above command. Within container,read the content of the file named password.txt to access your mysql database username and password by running :-
+You are supposed to run "docker ps" to know container's id before you run the above command. Within container,read the content of the file named password.txt to access your mysql database username and password by running :-
 
 cat /password.txt
 
